@@ -5,6 +5,7 @@ import Banner from '@/Compoments/UI/Banner/Banner'
 import LatestProject from '@/Compoments/UI/LatestProject/LatestProject'
 import Services from '@/Compoments/UI/Services/Services'
 import Contact from '@/Compoments/UI/Contact/Contact'
+import Footer from '@/Compoments/UI/Footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
         <LatestProject></LatestProject>
         <Services></Services>
         <Contact></Contact>
+        <Footer></Footer>
       </main>
     </>
   )
